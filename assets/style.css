@@ -66,13 +66,6 @@ p {
 	width: 60px;
 }
 
-.picture.left::before, .picture.right::before {
-    min-width: 374px;
-    min-height: 329px;
-}
-
-
-
 #about {
 	display: flex;
 	background-color: #F6D2B8;
@@ -151,7 +144,8 @@ p {
 }
 
 .nav-pills .nav-link {
-	color: #000
+	color: #000;
+	cursor: pointer;
 }
 
 .item-column {
