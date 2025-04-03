@@ -55,16 +55,18 @@ p {
 
 /* Carousel */
 .carousel-control-prev-icon, .carousel-control-next-icon {
-	background-color: #BEB45A;
-	width: 5rem;
-	height: 5rem;
+	width: 8rem;
+	height: 8rem;
 	margin: 1px;
 }
 
-.carousel-indicators [data-bs-target] {
-	height: 4px;
-	width: 60px;
+span.visually-hidden {
+    opacity: 1;
+    color: rgb(5, 5, 5);
+    background-color: rgb(255, 255, 255);
 }
+
+
 
 #about {
 	display: flex;
@@ -179,6 +181,11 @@ p {
 	align-items: center;
 	display: flex;
 	font-size: 1.5rem;
+}
+
+.modal-body {
+    display: flex;
+    justify-content: center;
 }
 
 .quote {
